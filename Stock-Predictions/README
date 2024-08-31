@@ -1,0 +1,2 @@
+API:
+https://api.finazon.io/latest/time_series?dataset=sip_non_pro&ticker={ticker}&prepost=true&interval=1m&page={i}&page_size={page_size}&order=desc&apikey={api_key}
