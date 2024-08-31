@@ -1,0 +1,21 @@
+https://docs.google.com/document/d/1adh5TgYVFF_YsensE4qeUTPa7cRjStus2-HGU4FRqZo/edit?usp=sharing 
+
+
+Problem: Find max number of points achievable based on leland swimmers’ best times and opposing team’s best times (focus on varsity girls lol)
+
+Notes:
+First place: 6 points
+Second place: 4 points
+Third place: 3 points
+Fourth place: 2 points
+Fifth place: 1 point
+
+Each swimmer can only do 4 events maximum
+Can’t do events back to back
+
+
+How?
+Start with one event at a time, our top three swimmers and their top three swimmers (we’d know which of their swimmers are entered in each event by the time this model runs)
+Find the top three possible point values achievable
+
+Repeat with each event, then try combinations of the top three possible point values for each event to find most optimal point value overall
