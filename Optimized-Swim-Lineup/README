@@ -1,0 +1,8 @@
+Based on the number of points each place earns and the constraints on the number of events each swimmer can perform, there
+is an optimized swim lineup that a swim coach can put together to earn the maximum number of points for the team.
+Normally, a coach has to do this manually, but it can potentially be automated using data analysis.
+
+A lot more work still needs to be put in. I would need a pdf reader to read and store best times that swimmers have 
+compared to best times of the opposing team. I would also then need to be able to test an indefinite number of combinations
+and find the best one. There are several limits to this approach, including accounting for injuries and illnesses,
+allowing swimmers a gap event to rest, and including B and C relays. 
