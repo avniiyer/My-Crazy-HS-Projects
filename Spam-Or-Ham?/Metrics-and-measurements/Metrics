@@ -1,0 +1,9 @@
+1) SGD Classifier
+precision_score: 0.9959349593495935
+recall_score: 0.9423076923076923
+f1_score: 0.9683794466403163
+roc_auc_score: 0.999799331103679
+
+2) Random Forest Classifier
+roc_auc_score: 0.9995165703861356
+recall_score: 0.8923076923076924
