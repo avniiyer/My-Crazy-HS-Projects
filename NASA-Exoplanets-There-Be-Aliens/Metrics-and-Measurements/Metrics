@@ -1,0 +1,11 @@
+1) Logistic Regression
+Accuracy: 0.015789473684210527
+
+2) KNN Classifier 
+Accuracy: 0.9912280701754386
+
+3) Polynomial SVM Classifier
+Accuracy: 0.9789473684210527
+
+4) Binary MLP Classifier
+loss: 0.4556 - accuracy: 0.9927 - val_loss: 0.4434 - val_accuracy: 0.9912
