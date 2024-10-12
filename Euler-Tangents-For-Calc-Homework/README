@@ -1,0 +1,2 @@
+Instead of spending time calculating the differentials for an approximation using Euler Tangents, simply change the 
+number of steps required, and the starting values for x and y to get an answer thanks to the use of for loops. 
