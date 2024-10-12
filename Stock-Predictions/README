@@ -1,0 +1,32 @@
+The goal of this work was to predict rsi, a value that has a threshold that shows when to buy or sell a share
+of stock to maximize profit.
+
+For each entry in a chronological timesheet of stock entries, there are 7 features: "t" (timestamp with data and time),
+"h" (high, the highest value of the stock on that interval), "o" (the value at the stock at the opening of this interval)
+"c" (the value of the stock at the closing of this interval), "l" (low, the lowest value of the stock on the interval),
+"v" (volume of the stock), and "rsi" (reletave strength indicator of the stock)
+
+After feature engineering and determining a correlation matrix, I determined that the difference between the 
+"close" and "open" time is also a valueable feature as it correlates highly with yield strength, so I add this to the dataset.
+
+Three main regression models are used to predict rsi. 
+
+1) Linear Regression
+A SimpleImputer pipeline processing is used to standardize data. Even when just correlating difference in open and close
+values, the RSI can be predicted with an RMSE of 0.15899833548288914
+
+2) Random Forest Regressor
+10 Cross Validation iterations are used with the hyperparameters 
+Hyperparameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': None, 'max_features': 1.0,
+                  'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 
+                  'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 
+                  'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+
+
+
+3) Decision Tree Regressor
+A grid search is used to determine the bes model of the Decision Tree Regressor. 
+The best hyperparameters are shown to be:
+Best Hyperparameters: {'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': None}
+
+Using this final best model, which had the best results, I was able to print the predicted RSI values with a timestamp. 
