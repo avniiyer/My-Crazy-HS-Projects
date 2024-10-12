@@ -1,1 +1,11 @@
+First, I read and store the content of each spam or ham email. I concatenate the two separate spam and ham email datasets
+into one larger dataset. Using TfidfVectorizer, the frequency of key dictionary words are converted into a feature vector. Two 
+major classifiers are then used to sort between spam or ham emails:
 
+1) SGD (Stochastic Gradient Descent) Classifier
+Using backpropogation, SGD updates linear coefficien weights to minimize the loss function. Three cross validation iterations
+are used to avoid overfitting. 
+
+2) Random forest classifier
+Using cross validation prediction again, a random forest classifier is used to predict the probability of belonging
+to the spam or ham class. 
