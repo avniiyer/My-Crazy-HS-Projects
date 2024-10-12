@@ -1,1 +1,14 @@
+After extracting exoTest and exoTrain from the archive file (570 rows x 3198 columns) I used PCA dimensionality 
+reduction to extract the two primary components contributing to Exoplanet prediction in order to plot the data. I then
+used several classifiers and regression models to predict whether the planet is an exoplanet. 
 
+1) Logistic Regression
+A regression model, fit on X_pca and y_train, likely not suitable for complex data that does not fit a logisitic
+relationship. 
+
+2) Polynomial SVM classifier
+Preprocessed using Standard Scaler. The model with the best hyperarameters are chosen from a grid search.
+Fit on X_pca and y_train. Better for fitting to a polynomial, more complex relationship. 
+
+3) Binary MLP classifier
+The loss used is binary_crossentropy. A neural network is able to determine relationships in a blackbox. 
