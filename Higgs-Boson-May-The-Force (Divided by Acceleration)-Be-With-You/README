@@ -1,0 +1,3 @@
+The Higgs boson creates the Higgs field with which particles interact with to determine a physical property we 
+call mass. This file begin using a binary MLP model to classify whether a particle is a Higgs Boson or not. Needs
+more work to troubleshoot "nan" losses. 
