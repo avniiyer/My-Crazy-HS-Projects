@@ -1,0 +1,19 @@
+Muons are fundamental particles part of the Standard Model of physics. They are leptons, part of the fermion class, and are essentially large, negatively charged particles.
+They are found as radiation from nuclear waste and astrophysical sources. Atmospheric muons are also highly prevelant. 
+
+A muon detector with a plastic scintillator works by detecting a cone of light muons emit when traveling faster than light in a medium (known as cherenkov radiation) and 
+converting it to electric signals. CosmicWatch provides the framework for building a desktop muon detector:
+
+Part 1 
+https://www.youtube.com/watch?v=e4IXzNiNxgU 
+
+Part 2 (PCB)
+https://www.youtube.com/watch?v=zdVC8El_Xt8 
+
+Part 3
+https://www.youtube.com/watch?v=yFgin5wlw4I 
+
+Part 4 (troubleshooting)
+https://youtu.be/Ck24HGrjBfY?si=5O4HTwhkkV0a49rB 
+
+Following this procedure, I began building the desktop muon detector.
