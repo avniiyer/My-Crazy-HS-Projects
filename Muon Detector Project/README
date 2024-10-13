@@ -2,7 +2,9 @@ Muons are fundamental particles part of the Standard Model of physics. They are 
 They are found as radiation from nuclear waste and astrophysical sources. Atmospheric muons are also highly prevelant. 
 
 A muon detector with a plastic scintillator works by detecting a cone of light muons emit when traveling faster than light in a medium (known as cherenkov radiation) and 
-converting it to electric signals. CosmicWatch provides the framework for building a desktop muon detector:
+converting it to electric signals thanks to a Silicon Photomultiplier (SiPm). 
+
+CosmicWatch provides the framework for building a desktop muon detector:
 
 Part 1 
 https://www.youtube.com/watch?v=e4IXzNiNxgU 
