@@ -1,0 +1,4 @@
+Piezoelectric components work through converting pressure to electrical signals. Using piezoelectric components, a multimeter, and a soldering kit, I put together a shoe inlaid
+with a piezoelectric circuit. The goal was that walking should generate enough electrical charge to charge a phone.
+
+Unfortunately, not enough charge was actually generated to be significant. 
